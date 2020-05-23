@@ -1,0 +1,6 @@
+#ignore eclipse config and setting files
+.settings
+*/target/*
+.project
+.classpath
+.DS_Store
