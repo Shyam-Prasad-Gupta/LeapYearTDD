@@ -28,6 +28,12 @@ class TestLeapYear {
 		Assertions.assertEquals(Boolean.TRUE, LeapYear.checkForLeapYear(2012));
 		Assertions.assertEquals(Boolean.TRUE, LeapYear.checkForLeapYear(2016));
 				
+		//If year is not divisible by 4.
+		//Test with inputs 2017, 2018, and 2019
+		Assertions.assertEquals(Boolean.TRUE, LeapYear.checkForLeapYear(2017));
+		Assertions.assertEquals(Boolean.TRUE, LeapYear.checkForLeapYear(2018));
+		Assertions.assertEquals(Boolean.TRUE, LeapYear.checkForLeapYear(2019));
+				
 	}
 
 }
